@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyzaplineplus"
+version = "1.0.0"
+description = "Python adaptation of the Zapline-plus library for EEG noise removal"
+readme = "README.md"
+authors = [
+    {name = "Project Contributors"}
+]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "scikit-learn",
+    "matplotlib",
+]
+requires-python = ">=3.13"
+
+[project.urls]
+"Homepage" = "https://github.com/JoshM4/PyZapline_plus"
+"Bug Tracker" = "https://github.com/JoshM4/PyZapline_plus/issues" 
