@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "pyzaplineplus"
-version = "1.0.0"
+version = "1.0.1"
 description = "Python adaptation of the Zapline-plus library for EEG noise removal"
 readme = "README.md"
 authors = [

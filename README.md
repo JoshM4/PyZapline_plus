@@ -24,7 +24,7 @@ The main objectives of PyZaplinePlus include:
 To install PyZaplinePlus, you can use the following command:
 
 ```sh
-pip install pyzaplineplus
+pip install git+https://github.com/JoshM4/PyZapline_plus
 ```
 
 ### Dependencies
@@ -44,7 +44,7 @@ If you wish to get started right away, you can use PyZaplinePlus with any EEG da
 
 ```python
 import numpy as np
-from pyzaplineplus import zapline_plus
+from pyZapline_plus.pyzaplineplus import zapline_plus
 
 # Load your data (example)
 data = np.load('synthetic_eeg_data.npy')
@@ -59,7 +59,7 @@ If you are using the MNE-Python library, PyZaplinePlus can be easily integrated 
 
 ```python
 from mne import io
-from pyzaplineplus import zapline_plus
+from pyZapline_plus.pyzaplineplus import zapline_plus
 
 # Load your MNE data object
 raw = io.read_raw_fif('sample_raw.fif', preload=True)

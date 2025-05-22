@@ -3,7 +3,7 @@ from scipy import signal
 from scipy.spatial.distance import pdist
 from scipy.signal import find_peaks
 from sklearn.decomposition import PCA
-from noise_detection import find_next_noisefreq
+from pyZapline_plus.noise_detection import find_next_noisefreq
 from matplotlib import pyplot as plt
 import numpy as np
 from sklearn.decomposition import PCA
